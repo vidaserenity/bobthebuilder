@@ -1,0 +1,107 @@
+1654204805406	geckodriver	INFO	Listening on 127.0.0.1:54899
+1654205260349	geckodriver	INFO	Listening on 127.0.0.1:55173
+1654205263437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofile7UURCP"
+1654205263931	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55174
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofile7UURCP\\search.json.mozlz4", (void 0)))
+1654205266435	Marionette	INFO	Listening on port 55217
+DevTools listening on ws://localhost:55174/devtools/browser/345fe9ed-2889-4b7d-9444-986855764922
+Read port: 55217
+1654205266546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654205332595	Marionette	INFO	Stopped listening on port 55217
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ileR33PL1"
+1654205303808	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55264
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileR33PL1\\search.json.mozlz4", (void 0)))
+1654205306018	Marionette	INFO	Listening on port 55298
+DevTools listening on ws://localhost:55264/devtools/browser/dd63a0b8-9233-4465-b875-da0fa442ef2c
+Read port: 55298
+1654205306078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654205321036	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1654205337176	Marionette	INFO	Stopped listening on port 55298
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 22080, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1654205457610	geckodriver	INFO	Listening on 127.0.0.1:55497
+1654205460682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55498" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilez2jaTR"
+1654205461114	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55498
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilez2jaTR\\search.json.mozlz4", (void 0)))
+1654205463245	Marionette	INFO	Listening on port 55538
+Read port: 55538
+1654205463341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:55498/devtools/browser/6ef727f9-8985-4ac0-8b3e-42d7fb7af36b
+1654205488729	Marionette	INFO	Stopped listening on port 55538
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilegl7hCG"
+1654205489122	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55593
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilegl7hCG\\search.json.mozlz4", (void 0)))
+1654205491205	Marionette	INFO	Listening on port 55640
+DevTools listening on ws://localhost:55593/devtools/browser/cb406ed3-8810-4db4-af5a-88149b60763d
+Read port: 55640
+1654205491310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654205518313	Marionette	INFO	Stopped listening on port 55640
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2960, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1654205583518	geckodriver	INFO	Listening on 127.0.0.1:55778
+1654205586621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileYcLZif"
+1654205587037	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55779
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileYcLZif\\search.json.mozlz4", (void 0)))
+1654205589013	Marionette	INFO	Listening on port 55821
+Read port: 55821
+DevTools listening on ws://localhost:55779/devtools/browser/6b0b43bf-557a-43e5-a624-0279480d6a6f
+1654205589055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654205740409	Marionette	INFO	Stopped listening on port 55821
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ileMGGrVr"
+1654205727143	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55940
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileMGGrVr\\search.json.mozlz4", (void 0)))
+1654205729239	Marionette	INFO	Listening on port 55983
+DevTools listening on ws://localhost:55940/devtools/browser/cd022f07-4ea9-4121-9259-0285fa70692f
+Read port: 55983
+1654205729278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654205741960	Marionette	INFO	Stopped listening on port 55983
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654205759989	geckodriver	INFO	Listening on 127.0.0.1:56059
+1654205763071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilewIqB1q"
+1654205763500	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56060
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofilewIqB1q\\search.json.mozlz4", (void 0)))
+1654205765567	Marionette	INFO	Listening on port 56103
+Read port: 56103
+1654205765609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:56060/devtools/browser/387a3b58-8264-4c4f-882e-4dbc3422024c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654205780618	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1654206600470	Marionette	INFO	Stopped listening on port 56103
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "56779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileenB0Q2"
+1654206598379	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56779
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileenB0Q2\\search.json.mozlz4", (void 0)))
+1654206600977	Marionette	INFO	Listening on port 56826
+Read port: 56826
+DevTools listening on ws://localhost:56779/devtools/browser/34cccdd7-42e7-4ccf-a6fd-c6e72a7baee4
+1654206601032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654206618837	Marionette	INFO	Stopped listening on port 56826
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
