@@ -105,3 +105,63 @@ DevTools listening on ws://localhost:56779/devtools/browser/34cccdd7-42e7-4ccf-a
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
 1654206618837	Marionette	INFO	Stopped listening on port 56826
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654293387235	geckodriver	INFO	Listening on 127.0.0.1:50267
+1654293390285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileVLVmM8"
+1654293391141	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50268
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileVLVmM8\\search.json.mozlz4", (void 0)))
+1654293394616	Marionette	INFO	Listening on port 50308
+Read port: 50308
+DevTools listening on ws://localhost:50268/devtools/browser/c8c94ef1-817d-45bb-a34e-4b60bba9dfcc
+1654293394793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654293410231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1654294380102	Marionette	INFO	Stopped listening on port 50308
+[Parent 14704, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1654295996864	geckodriver	INFO	Listening on 127.0.0.1:61864
+1654295999938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileNy4lbF"
+*** You are running in headless mode.
+1654296000799	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61865
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileNy4lbF\\search.json.mozlz4", (void 0)))
+1654296002890	Marionette	INFO	Listening on port 61908
+Read port: 61908
+DevTools listening on ws://localhost:61865/devtools/browser/9227f63d-28c1-47b0-9ab8-17e1145027a7
+1654296002989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62007
+1654296057424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileUs0F2H"
+1654296057929	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62008
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileUs0F2H\\search.json.mozlz4", (void 0)))
+1654296060830	Marionette	INFO	Listening on port 62052
+DevTools listening on ws://localhost:62008/devtools/browser/e67d02b3-6187-4ac8-aa3a-31ad9ac49ca7
+Read port: 62052
+1654296060913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+1654296083540	Marionette	INFO	Stopped listening on port 62052
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654296097916	geckodriver	INFO	Listening on 127.0.0.1:62138
+1654296100962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofile4HqeG8"
+*** You are running in headless mode.
+1654296101600	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62139
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofile4HqeG8\\search.json.mozlz4", (void 0)))
+1654296103661	Marionette	INFO	Listening on port 62176
+DevTools listening on ws://localhost:62139/devtools/browser/69120e97-afe5-458d-ad35-f329231c4cdf
+Read port: 62176
+1654296103781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\peixi\AppData\Local\Temp\rust_mozprofile4HqeG8\bookmarkbackups\bookmarks-2022-06-03_11_cAI0mKTdMif+I+8GlDChkg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
