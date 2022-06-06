@@ -165,3 +165,15 @@ Read port: 62176
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
 JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\peixi\AppData\Local\Temp\rust_mozprofile4HqeG8\bookmarkbackups\bookmarks-2022-06-03_11_cAI0mKTdMif+I+8GlDChkg==.jsonlz4) because it does not exist
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1654484734285	geckodriver	INFO	Listening on 127.0.0.1:49850
+1654484737299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileXFB21S"
+*** You are running in headless mode.
+1654484737903	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49851
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\peixi\\AppData\\Local\\Temp\\rust_mozprofileXFB21S\\search.json.mozlz4", (void 0)))
+1654484739959	Marionette	INFO	Listening on port 49893
+Read port: 49893
+1654484740102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:49851/devtools/browser/8d6cce9d-e869-4671-b959-2010c4d685c3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.indeed.com"
