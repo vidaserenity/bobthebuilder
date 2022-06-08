@@ -37,7 +37,7 @@ SOFTWARE REQUIREMENTS:
 - one figure
 
 ### Component 3: HTML and CSS file
-> HTML 
+> HTML <br>
 HTML was used in creating the formatting for the website including the following subpages:
 - about.html: about us page gives a brief introduction of what the webapp is for
 - base.html: specifies the base URL and/or target for all relative URLs in a document. The <base> tag must have either an href or a target attribute present, or both. There can only be one single <base> element in a document, and it must be inside the <head> element.
