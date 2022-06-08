@@ -23,6 +23,7 @@ The webapp is built on three main components: Indeed Scraper, Flask Webapp and H
 SOFTWARE REQUIREMENTS:
 - Programming Language: Python
 - User Interface: HTML and CSS
+
 ![bruindoe_resume.png]({{ site.baseurl }}/images/bruindoe_resume.png)
 
 ### Component 1: Indeed Scraper 
@@ -30,11 +31,11 @@ SOFTWARE REQUIREMENTS:
 - one code snippet
 - one figure
 
-
 ### Component 2: Flask Webapp
 
-In the function ask( ), if the post is the method, then we use a flask import function called redirect( ) in order to redirect the page to the resume command. 
-Once the user fills out the information and is redirected, the @app.route("/resume/") calls the resume( ) function. In this function, we take the information that the user inputted and store it in a python variable in order to pass the parameters. The syntax for this is first_name=request.form[‘first_name’]. Once we store all the inputs, we return the function render_template (), which has been imported from Flask, so that the resume.html template is rendered. Since we are passing the parameters, we also need to pass the parameters through the render_template () function with the syntax “first_name= first_name”. then the resume.html template is rendered and now the user can view their resume on the webapp!
+In this component, we will be talking about the Flask Webapp aspect of our project. In order for this webapp to work, we created an __init__.py in the directory. Then, we created a templates folder to store all html files for the different pages on our webapp. There is also a style.css and resume_style.css file in a separate static folder. First, we imported all the necessary packages. When the webapp is first launched by the user, it follows the command @app.route("/") and the main( ) function is called. After this, the function render_template (), which has been imported from Flask, is returned so that the main_better.html template is rendered. In other words, this means that when someone looks up the website, it will show the home page of the webapp, which displays instructions on how to use the webapp. Next, the @app.route("/about/") calls the function hello( ), which renders the about.html template. Basically, when the user clicks “About Us” on our website, the url adds “/about/” to the end and redirects the user to the about us page.
+
+Now, let’s talk about how the filling out and generating the resume works. Now if the user selects “Form”, the @app.route("/form/") calls the ask( ) function. This is the page where the user fills out their information. In this function command we considered two methods; get and post. The get method is when the user first arrives to the form page. In the function ask( ), the form.html template is rendered when the user enters the page through the get method. On the other hand, the post method is when the user has already been to the form page and has filled out the information the form requests. In the function ask( ), if the post is the method, then we use a flask import function called redirect( ) in order to redirect the page to the resume command. Once the user fills out the information and is redirected, the @app.route("/resume/") calls the resume( ) function. In this function, we take the information that the user inputted and store it in a python variable in order to pass the parameters. The syntax for this is first_name=request.form[‘first_name’]. Once we store all the inputs, we return the function render_template (), which has been imported from Flask, so that the resume.html template is rendered. Since we are passing the parameters, we also need to pass the parameters through the render_template () function with the syntax “first_name= first_name”. then the resume.html template is rendered and now the user can view their resume on the webapp!
 
 ```python
 from flask import Flask, g, render_template, request
@@ -87,7 +88,6 @@ def resume():
     school1GPA=request.form['school1GPA']
     school1Relevant_Courses=request.form['school1Relevant_Courses']
 
-
     company1=request.form['company1']
     company1position=request.form['company1position']
     company1startdate=request.form['company1startdate']
@@ -129,11 +129,11 @@ def submit():
 
         return render_template('indeed_test.html', user_job=user_job, user_location=user_location, current_url=current_url)
 
-
 @app.route('/about/')
 def hello():
     return render_template('about.html')
 ```
+
 ![resume_builder.png]({{ site.baseurl }}/images/resume_builder.png)
 
 ### Component 3: HTML and CSS file
