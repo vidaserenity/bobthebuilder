@@ -257,3 +257,6 @@ The project was set to also include job and keyword recommendations through web 
 
 Some ideas to further develop the webapp is to allow users to choose different templates for the resume, check for punctuation, spelling and grammar mistakes or provide selections for user input. 
 
+This project served its purpose in allowing the team to understand more about building a webapp from scratch! It was fun, frustrating at times but definitely fulfilling. That is it for our project. 
+
+`print("Goodbye, World")`
