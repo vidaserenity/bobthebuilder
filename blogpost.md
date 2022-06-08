@@ -29,7 +29,7 @@ SOFTWARE REQUIREMENTS:
 ### Component 1: Indeed Scraper 
 - 2 paragraphs 
 - one code snippet
-- one figure
+![indeed_scraper.png]({{ site.baseurl }}/images/indeed_scraper.png)
 
 ### Component 2: Flask Webapp
 
